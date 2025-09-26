@@ -1,0 +1,40 @@
+*/__pycache__/
+*/*.egg-info/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+.env
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+README.md
+LICENSE.txt
+
+# Git
+.git
+*/*.gitignore
+
+# Docker artifacts
+docker/
+Dockerfile
+.dockerignore
+
+# Тесты (если не нужны внутри контейнера)
+tests/
+*.log
+
+src/app/services
+
+# Logs
+logs/
+
+# Documentation
+doc/
+
+build/
