@@ -1,0 +1,7 @@
+database:
+  driver: postgresql+asyncpg
+  user: postgres
+  password: postgres
+  host: dashcart_postgres
+  port: 5432
+  database: dashcart
